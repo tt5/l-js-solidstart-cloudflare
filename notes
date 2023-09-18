@@ -1,0 +1,10 @@
+bun run dev
+bun i solid-start-cloudflare-workers
+// add adapter to config
+// write wrangler.toml
+npx wrangler init
+// dont create src/index.ts
+bun run build
+npx wrangler init
+npx wrangler dev
+npx wrangler deploy
